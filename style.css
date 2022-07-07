@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Be+Vietnam+Pro:wght@800&family=Bitter:wght@100&family=Gwendolyn:wght@700&family=Outfit:wght@100;600&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Be+Vietnam+Pro:wght@800&family=Bitter:wght@100&family=Gwendolyn:wght@700&family=Outfit:wght@100;600&family=Ubuntu:wght@500&display=swap');
+body{
+    background-color: rgb(102, 105, 105);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar */
+nav{
+    font-family: 'Balsamiq Sans', cursive;
+}
+nav ul{
+    display: flex;
+    list-style: none; 
+    height: 90px;
+    color: white;
+    background-color: rgb(8, 7, 8);
+    align-items: center;
+}
+nav ul li{
+    padding: 3px 10px;
+    font-size: 20px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.brand img{
+    width: 94px;
+    height: 69px;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 23px auto;
+    background-image: url('bg.webp');
+    background-position: center;
+    background-attachment: fixed;
+}
+.songItem{
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 26px;
+    margin: 7px;
+    padding: 6px;
+}
+.songItem img{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 13px;
+}
+.timestamp i{
+    cursor: pointer;
+    padding: 7px;
+}
+.bottom{
+    height: 80px;
+    position: sticky;
+    background-color: black;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icons{
+    margin-top: 6px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 0px;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-left: 20px;
+    margin-right: 9px;
+}
+#myprogressbar{
+    text-align: center;
+    width: 90%;
+}
